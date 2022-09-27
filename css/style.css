@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+
+@font-face {
+	font-family: "Arimo-Bold";
+	src: url("../fonts/Arimo-Bold.woff2") format("woff2"); 
+	src: url("../fonts/Arimo-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Arimo-Bold";
+	src: url("../fonts/Arimo-BoldItalic.woff2") format("woff2");
+	src: url("../fonts/Arimo-BoldItalic.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: "Arimo-Medium";
+	src: url("../fonts/Arimo-Medium.woff2") format("woff2");
+	src: url("../fonts/Arimo-Medium.woff") format("woft");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Arimo-Regula";
+	src: url("../fonts/Arimo-Regular.woff2") format("woff2");
+	src: url("../fonts/Arimo-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal
+}
+
+
+
+
+* {
+	font-family: "Arimo-Regula", serif;
+	font-size: 20px;
+	font-display: swap;
+	font-weight: 400;
+	font-style: oblique;
+	text-align: justify;
+	text-indent: 20px;
+	color: rgba(99, 1, 1, 0.869);
+	margin: 0px 20px 5px 20px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Rubik Dirt", serif;
+	font-display: swap;
+	font-size: 30px;
+	font-style: normal;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 2;
+	color: rgb(16, 2, 115);
+	background-color: rgb(234, 18, 18);
+	padding: 20px;
+}
+h2 {
+	font-size: 25px;
+	background-color: rgb(151, 206, 23);
+}
+h3 {
+	font-size: 20px;
+	background-color: rgb(74, 14, 176);
+}
+
+.red p {
+	letter-spacing: 2px;
+	white-space: nowrap;
+	word-spacing: 2px;
+	color: rgb(124, 2, 2);
+}
+
+.oreng li > a {
+	font-family: "Rubik Dirt", serif;
+	font-display: swap;
+	font-style: normal;
+	font-size: 25px;
+    color: rgb(1, 95, 1);
+	text-align: right;
+}
+
+p.yellow {
+	font-family: "Rubik Dirt", serif;
+	font-display: swap;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 2;
+	text-transform: lowercase;
+	text-decoration: overline;
+	color: rgb(85, 84, 2);
+}
+
+.gren p {
+	font-family: "Arimo-Medium";
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 30px;
+	text-shadow: 5px 5px 5px rgb(187, 9, 9);
+	color: rgb(98, 1, 48);
+}
+
+.red-oreng p {
+	font-family: "Arimo-Regula", serif;
+	font-size: 50px;
+	font-display: swap;
+	font-weight: 400;
+	font-style: oblique;
+	text-align: justify;
+	text-shadow: 4px 4px rgb(255, 230, 0);
+	color: rgb(2, 2, 9);
+}
+
+.red-gren {
+	font-family: "Arimo-Bold", serif;
+	font-display: swap;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 15px;
+	text-align: right;
+	text-decoration: underline;
+}
+
+p.block {
+	color: rgb(243, 6, 6);
+	background-color: rgb(24, 6, 6);
+	padding: 50px;
+}
+
+img.img {
+	width: 100%;
+	
+}
+div img {
+	width: 25%;
+}
+
+.five p {
+	width: 60%;
+	text-align: justify;
+	padding: 5%;
+	margin: 0% 20%;
+	background-color: rgb(240, 217, 217);
+}
+
